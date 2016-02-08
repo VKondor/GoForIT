@@ -1,0 +1,36 @@
+body {
+	background-color: #E7E7E7;
+}
+div {
+	margin: 5px auto 45px;
+	padding: 27px 40px 70px 40px;
+	width: 38%;
+	background-color: white;
+	font-size: 18px;
+	box-shadow: 0px 0px 4px 0px rgba(50, 50, 52, 0.51);
+	
+}
+p,
+span,
+a
+	{
+	padding-left: 15px;
+}
+h2 {
+	text-align: center;
+}
+div .photo {
+	text-align: center;	
+}
+img {
+	border-radius: 10px;
+}
+ul {
+	margin-top: 35px;
+}
+div .bottom {
+	margin-bottom: 0px;
+}
+
+
+	
