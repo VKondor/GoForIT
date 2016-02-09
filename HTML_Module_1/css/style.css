@@ -1,7 +1,7 @@
-body {
+.background {
 	background-color: #E7E7E7;
 }
-div {
+.card {
 	margin: 5px auto 45px;
 	padding: 27px 40px 70px 40px;
 	width: 38%;
@@ -10,26 +10,28 @@ div {
 	box-shadow: 0px 0px 4px 0px rgba(50, 50, 52, 0.51);
 	
 }
-p,
-span,
-a
+.link,
+.status,
+.causes,
+span
 	{
 	padding-left: 15px;
 }
-h2 {
+.name {
 	text-align: center;
 }
-div .photo {
+.card .photo {
 	text-align: center;	
 }
-img {
+.my_img {
 	border-radius: 10px;
 }
-ul {
+.list {
 	margin-top: 35px;
 }
-div .bottom {
+.card .bottom {
 	margin-bottom: 0px;
+	padding-left: 15px;
 }
 
 
