@@ -1,0 +1,32 @@
+.box {
+	margin: auto;
+	width: 1215px;
+}
+.header {
+	height: 36px;
+	background-color: #074e8b;
+	/*clear: both;*/
+}
+/*.clearfix:after {*/
+	content: "";
+	display: block;
+	clear: both;
+}
+.menu {
+	width: 518px;
+	border-right: 1px solid #56a2dc;	
+
+}
+.menu li {
+	float: left;	
+}
+.menu li a {
+	display: block;
+	padding: 10px 25px;
+	color: #60b5ed;
+	text-decoration: none;	
+}
+.menu li a:hover {
+	background-color: #4eabda;
+	color: white;
+}

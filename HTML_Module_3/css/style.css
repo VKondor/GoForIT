@@ -17,10 +17,11 @@ body {
 .menu a {
 	display: inline-block;
 	padding: 12px 25px;
-	color: white;	
+	color: white;
 	text-decoration: none;
 }
 .menu a:hover {
+	padding: 11px 24px;
 	background-color: #484848;
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
@@ -30,15 +31,19 @@ body {
 	height: 660px;
 	width: 849px;
 }
+
 .sidebar {	
 	float: left;
 	width: 185px;
+	border-top: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
 }
 .sidebar a{
 	display: block;
 	padding: 11px 25px;
 	color: #656363;
-	border: 1px solid #c8c8c8;	
+	border-bottom: 1px solid #c8c8c8;
 	text-decoration: none;
 }
 .sidebar a:hover {
