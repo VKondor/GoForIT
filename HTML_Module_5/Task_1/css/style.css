@@ -1,0 +1,129 @@
+@import url(reset.css);
+@font-face {
+    font-family: 'Helvetica Neue Cyrlight';
+    src: url('fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 1215px;
+	height: 1028px;
+	background-image: url(../img/background.jpg);
+	font-family: 'Helvetica Neue Cyrlight', Tahoma, sans-serif;
+}
+#header {
+	width: 1215px;
+	height: 36px;
+	background-image: url(../img/header.jpg);
+}
+.menu ul li {
+	float: right;
+	padding: 10px 0;
+}
+.menu ul li a {
+	padding: 9px 13px 8px;
+	width: 36px;
+	text-decoration: none;
+	color: #60b5ed;
+}
+.menu ul li a:hover {
+	background-color: #4eabda;
+	color: white;
+}
+#header .reg {
+	margin-right: 20px;
+	padding: 10px 13px 10px;
+	background: linear-gradient(to top, #2e7ac4, #50afdc);
+	color: white;
+}
+#header .reg a {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: underline;
+}
+#header .reg a:hover {
+	background: none;
+}
+#header .feedback {
+	margin-top: 3px;
+	padding: 10px 13px 4px;
+	border-left: 1px solid #56a2dc;
+}
+#header .feedback img {
+	margin-top: -10px;
+	margin-bottom: -5px
+}
+#header .feedback a {
+	color: white;
+}
+#header .feedback a:hover {
+	background: none;
+}
+#content {
+	margin: 176px auto 0;
+	width: 560px;
+	height: 613px;
+}
+.name {
+	margin-bottom: 3px;
+	padding-top: 20px;
+	width: 560px;
+	height: 42px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 24px;
+	text-align: center;
+}
+.wrapper2 {
+	position: relative;
+	height: 568px;
+	background-color: rgba(0,0,0,0.5);
+}
+.form {
+	position: absolute;
+	left: 142px;
+	top: 36px;
+	width: 276px;
+}
+.input {
+	padding: 12px 19px;
+	margin-bottom: 16px;
+	width: 238px;
+	border: none;
+	color: #cccccc;
+	background-color: #0f0f0f;
+}
+.input:hover {	
+	background-color: #1b5288;
+	box-shadow: 0px 0px 5px 2px rgba(74, 134, 175, 0.75);
+}
+.submit {
+	margin: 20px 55px;
+	padding: 15px 14px;
+	background: linear-gradient(to top, #2e7ac4, #4faddb);
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+.license {
+	width: 410px;
+	position: absolute;
+	left: 75px;
+	bottom: 25px;
+	text-align: center;
+	color: #CCCCCC;
+	font-size: 11px;
+}
+.checkbox label {
+	color: #cccccc;
+}
+.line {	
+	margin: 15px 0 15px;
+}
+
