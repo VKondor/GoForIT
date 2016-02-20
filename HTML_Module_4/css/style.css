@@ -1,5 +1,5 @@
 body {
-	background: url("../img/background.gif");
+	background-image: url("../img/background.gif");
 }
 .box {
 	margin: 0 auto 30px;	
@@ -32,7 +32,6 @@ body {
 	clear: both;
 	display: block;
 }
-
 .menu {
 	background-color: #343434;
 	margin-top: -3px;
@@ -46,9 +45,8 @@ body {
 	padding: 10px 30px;
 	height: 16px;
 	position: relative;
-	/*z-index: 1;*/
 }
-.menu li ul {
+.menu li .float {
 	display: none;
 	position: absolute;
 	left: 0;
@@ -57,7 +55,7 @@ body {
 	background-color: #303030;
 	box-shadow: 0px 3px 5px 2px rgba(50, 50, 49, 0.88);
 }
-.menu li ul li {
+.menu li .float li {
 	padding: 10px;
 	margin: -5px;
 }
@@ -73,28 +71,22 @@ body {
 	padding-bottom: 10px;
 	overflow: hidden;
 	width: 1000px;
-	color: #424c43;
+	background-image: url(../img/background_container.png) ;repeat-y;
+	color: #424C43;
 }
 .column1 {
 	float: left;
-	margin-bottom: -20000px;
-	padding: 10px 20px 20000px 20px;
-	width: 180px;
-	background-color: #edeef0;
-	z-index: -1;
+	padding: 10px 10px;
+	width: 188px;
 }
 .column2 {
 	float: left;
-	margin-bottom: -20000px;
-	padding-bottom: 20000px;
-	width: 560px;
+	width: 584px;
 }
 .column3 {
 	float: right;
-	margin-bottom: -20000px;
-	padding: 10px 20px 20000px 20px;
-	width: 180px;
-	background-color: #edeef0;
+	padding: 10px 0px 10px 5px;
+	width: 193px;	
 }
 .container h1 {
 	margin-bottom: 5px;
