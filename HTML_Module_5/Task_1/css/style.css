@@ -18,7 +18,7 @@
 }
 #header {
 	width: 1215px;
-	height: 36px;
+	height: 37px;
 	background-image: url(../img/header.jpg);
 }
 .menu ul li {
@@ -26,8 +26,7 @@
 	padding: 10px 0;
 }
 .menu ul li a {
-	padding: 9px 13px 8px;
-	width: 36px;
+	padding: 10px 15px;
 	text-decoration: none;
 	color: #60b5ed;
 }
@@ -37,7 +36,7 @@
 }
 #header .reg {
 	margin-right: 20px;
-	padding: 10px 13px 10px;
+	padding: 10px 15px;
 	background: linear-gradient(to top, #2e7ac4, #50afdc);
 	color: white;
 }

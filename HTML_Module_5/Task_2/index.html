@@ -3,44 +3,78 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<style>
+		td {
+			border: 10px solid black;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-style: solid;
+		}
+		.yellow {
+			background-color: yellow;
+		}
+
+		.blue {
+			background-color: blue;
+		}
+
+		.black {
+			width: 82px;
+			background-color: black;
+		}
+
+		.red {
+			height: 66px;
+			background-color: red;
+		}
+
+		.long {
+			height: 65px;
+		}
+
+		.long2 {
+			height: 34px;
+		}
+	</style>
 </head>
 <body>
-	<table>
+	<table align="center" border="12" bordercolor="white" cellpadding="25" >
 		<tr>
-			<td colspan="2"></td>
-			<td></td>
-			<td></td>			
-			<td></td>
-			<td colspan="2" bgcolor="yellow"></td>
+			<td colspan="2"></td>	
+			<td colspan="3"></td>	
+			<td class="yellow" colspan="2"></td>			
 		</tr>
 		<tr>
-			<td rowspan="2"></td>
-			<td colspan="4" rowspan="4" bgcolor="red"></td>
-			<td colspan="2" rowspan="2" bgcolor="yellow"></td>
+			<td class="long2" rowspan="2"></td>
+			<td class="red" rowspan="4" colspan="4"></td>
+			<td class="yellow" rowspan="2" colspan="2"></td>
 		</tr>
 		<tr>
 		</tr>
 		<tr>
 			<td rowspan="3"></td>
-			<td rowspan="2"></td>
-			<td rowspan="2"></td>
+			<td class="long" rowspan="2"></td>
+			<td class="long" rowspan="2"></td>
 		</tr>
 		<tr>
 		</tr>
-		<tr>		
-			<td colspan="2" rowspan="2" bgcolor="black"></td>
+		<tr>
+			<td class="black" rowspan="2" colspan="2"></td>
 			<td colspan="2"></td>
-			<td colspan="2"></td>			
+			<td colspan="2"></td>
 		</tr>
 		<tr>
-			<td rowspan="2" bgcolor="yellow"></td>
+			<td class="yellow" rowspan="3"></td>
 			<td colspan="2"></td>
-			<td colspan="2" rowspan="2" bgcolor="blue"></td>
+			<td class="blue" rowspan="2" colspan="2"></td>
+		<tr>
+			<td rowspan="2" colspan="2"></td>
+			<td class="black" colspan="2"></td>
 		</tr>
-		<tr>			
-			<td colspan="1"></td>
-			<td colspan="3" bgcolor="black"></td>
+		<tr>
+			<td colspan="4"></td>
 		</tr>
 	</table>
 </body>
