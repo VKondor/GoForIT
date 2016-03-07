@@ -5,67 +5,178 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link href="http://allfont.ru/allfont.css?fonts=league-gothic" rel="stylesheet" type="text/css" />
-	<link href="http://allfont.ru/allfont.css?fonts=open-sans-light" rel="stylesheet" type="text/css" />
 </head>
 <body>	
 	<header class="header">		
-		<section class="header_wrapper">
-			<figure class="header_logo">
+		<section class="header_wrapper clearfix">
+			<figure class="wrapper_logo">
 				<a href="#"><img src="img/logo.png" alt=""></a>
 			</figure>				
-			<menu class="header_menu">
-				<li class="header_item">
-					<a class="header_link" href="#">home</a>
+			<menu class="wrapper_menu">
+				<li class="menu_item">
+					<a class="menu_link" href="#">home</a>
 				</li>
-				<li class="header_item">
-					<a class="header_link" href="#">about</a>
+				<li class="menu_item">
+					<a class="menu_link" href="#">about</a>
 				</li>
-				<li class="header_item">
-					<a class="header_link" href="#">blog</a>
+				<li class="menu_item">
+					<a class="menu_link" href="#">blog</a>
 				</li>
-				<li class="header_item">
-					<a class="header_link" href="#">products</a>
+				<li class="menu_item">
+					<a class="menu_link" href="#">products</a>
 				</li>
-				<li class="header_item">
-					<a class="header_link" href="#">lorem ipsum</a>
+				<li class="menu_item">
+					<a class="menu_link" href="#">lorem ipsum</a>
 				</li>
-				<li class="header_item">
-					<a class="header_link" href="#">dolor sit ameta</a>
+				<li class="menu_item">
+					<a class="menu_link" href="#">dolor sit amet</a>
 				</li>
 			</menu>
-			<article class="header_title">
-				<h1 class="header_h1">Lorem Ipsum Dolor</h1>
-				<h2 class="header_h2">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h2>
-				<p class="header_p">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
-			</article>
-			<figure class="header_phone">
-				<img src="img/iphone.png" alt="">
-			</figure>
+			<menu class="wrapper_mini-menu">
+				<li class="mini-menu_item1">
+					<a class="mini-menu_link1" href="#">home</a>
+					<ul class="mini-menu_second">		
+						<li class="mini-menu_item2">
+							<a class="mini-menu_link2" href="#">about</a>
+						</li>
+						<li class="mini-menu_item2">
+							<a class="mini-menu_link2" href="#">blog</a>
+						</li>
+						<li class="mini-menu_item2">
+							<a class="mini-menu_link2" href="#">products</a>
+						</li>
+						<li class="mini-menu_item2">
+							<a class="mini-menu_link2" href="#">lorem ipsum</a>
+						</li>
+						<li class="mini-menu_item2">
+							<a class="mini-menu_link2 last--link" href="#">dolor sit amet</a>
+						</li>
+					</ul>
+				</li>								
+			</menu>
 		</section>
-		<section class="header_background"></section>		
+		<section class="header_background">			
+			<div class="background_wrapper">
+				<a class="background_left" href="#"><img src="img/left.png" alt=""></a>
+				<a class="background_right" href="#"><img src="img/right.png" alt=""></a>
+				<article class="wrapper_title">
+					<h1 class="title_title">Lorem Ipsum Dolor</h1>
+					<h2 class="title_subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</h2>
+					<p class="title_paragraph">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+				</article>
+				<figure class="wrapper_phone">
+					<img class="phone_img" src="img/iphone.png" alt="">
+				</figure>
+			</div>
+		</section>
+		<div class="header_radio">
+			<input class="radio_input" type="radio" name="radio" id="radio1">
+			<label class="radio_label" for="radio1"></label>
+			<input class="radio_input" type="radio" name="radio" id="radio2">
+			<label class="radio_label" for="radio2"></label>
+			<input class="radio_input" type="radio" name="radio" id="radio3">
+			<label class="radio_label" for="radio3"></label>
+			<input class="radio_input" type="radio" name="radio" id="radio4">
+			<label class="radio_label" for="radio4"></label>
+		</div>		
 	</header>
 	<section class="about">
 		<section class="about_wrapper">
-			<div class="about_column1">
-				<h1 class="about_h1">about our company</h1>
-				<p class="about_p">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
-				<a class="about_a" href="">read more</a>
+			<div class="wrapper_column1">
+				<h1 class="column_title">about our company</h1>
+				<p class="column_paragraph">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+				<a class="column_link" href="">read more</a>
 			</div>
-			<div class="about_column2 message">
-				<h1 class="about_h1">about our company</h1>
-				<p class="about_p">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
-				<a class="about_a" href="">read more</a>
+			<div class="wrapper_column2 message">
+				<h1 class="column_title">about our company</h1>
+				<p class="column_paragraph">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+				<a class="column_link" href="">read more</a>
 			</div>
-			<div class="about_column3 music">
-				<h1 class="about_h1">about our company</h1>
-				<p class="about_p">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
-				<a class="about_a" href="">read more</a>
+			<div class="wrapper_column3 music">
+				<h1 class="column_title">about our company</h1>
+				<p class="column_paragraph">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+				<a class="column_link" href="">read more</a>
 			</div>
 		</section>
 	</section>
 	<main class="main">
-		
+		<div class="main_wrapper">
+			<div class="wrapper_message">
+				<h1 class="message_title">pingbuller</h1>
+				<p class="message_paragraph">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+			</div>
+			<div class="header_radio radio-comments">
+				<input class="radio_input" type="radio" name="radio_m" id="radio1_m">
+				<label class="radio_label" for="radio1_m"></label>
+				<input class="radio_input" type="radio" name="radio_m" id="radio2_m">
+				<label class="radio_label" for="radio2_m"></label>
+				<input class="radio_input" type="radio" name="radio_m" id="radio3_m">
+				<label class="radio_label" for="radio3_m"></label>
+				<input class="radio_input" type="radio" name="radio_m" id="radio4_m">
+				<label class="radio_label" for="radio4_m"></label>
+			</div>
+			<div class="wrapper_updates">
+				<h1 class="updates_title">recent updates</h1>
+				<h2 class="updates_subtitle">Nunc turpis neque feugiat eget </h2>
+				<p class="updates_paragraph1">Posted by Admin on March 13 2012 in Recent News</p>
+				<h2 class="updates_subtitle">Nunc turpis neque feugiat eget </h2>
+				<p class="updates_paragraph2">Posted by Admin on March 13 2012 in Category</p>
+				<h2 class="updates_subtitle">Nunc turpis neque feugiat eget </h2>
+				<p class="updates_paragraph3">Posted by Admin on March 13 2012 in Blog Updates</p>
+				<a class="updates_link" href="#">read more here</a>
+				<a class="updates_link2" href="#">more blog posts</a>
+			</div>			
+		</div>		
 	</main>
+	<section class="main_brands">
+				<div class="brands_img">
+					<p class="brands_logos1"><img src="img/logos.png" alt=""></p>
+					<p class="brands_logos2"><img src="img/logos2.png" alt=""></p>
+					<p class="brands_logos3"><img src="img/logos3.png" alt=""></p>
+					<p class="brands_logos4"><img src="img/logos4.png" alt=""></p>
+				</div>
+	</section>
+	<section class="comments">
+		<div class="comments_wrapper">
+			<div class="comments_column1">
+					<h1 class="comments_title1">pigbull</h1>
+					<p class="comments_copy">Copyright 2013, Pingbull AS</p>
+					<p class="comments_paragraph">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul</p>
+				</div>
+				<div class="comments_column2">
+					<h1 class="comments_title2">recent comments</h1>
+					<p class="comments_paragraph">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+				</div>
+				<div class="comments_column3">
+					<h1 class="comments_title2">new categories</h1>
+					<p class="comments_paragraph">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer_wrapper">
+			<menu class="wrapper_menu footer--menu">
+				<li class="menu_item">
+					<a class="menu_link" href="#">home</a>
+				</li>
+				<li class="menu_item">
+					<a class="menu_link" href="#">about</a>
+				</li>
+				<li class="menu_item">
+					<a class="menu_link" href="#">blog</a>
+				</li>
+				<li class="menu_item">
+					<a class="menu_link" href="#">products</a>
+				</li>
+				<li class="menu_item">
+					<a class="menu_link" href="#">lorem ipsum</a>
+				</li>
+				<li class="menu_item">
+					<a class="menu_link" href="#">dolor sit amet</a>
+				</li>
+			</menu>			
+			<p class="footer_design">Designed by</p>			
+		</div>
+	</footer>
 </body>
 </html>
