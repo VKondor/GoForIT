@@ -47,12 +47,17 @@
 	float: left;
 }
 .reg {
-	position: relative;
-	top: 2px;
+	/*position: relative;*/
+	/*top: 2px;*/
+	/*vertical-align: text-bottom;*/
+	margin-top: 2px;
 	font-size: 11px;
 	font-family: 'Lucida Sans Unicode', Arial, sans-serif;
 	text-decoration: none;
 	color: white;
+	padding: 0;
+	background-color: transparent;
+	border: none;
 }
 .forgot {
 	margin-right: 11px;
@@ -71,6 +76,7 @@
 	color: #97a2a6;
 }
 .log button {
+	margin-left: -2px;
 	padding: 0;
 	background-color: transparent;
 	color: white;
@@ -81,13 +87,16 @@
 .log button:hover {
 	color: #bfbfbf;
 }
+.reg:hover {
+	color: #bfbfbf;
+}
 .log img {
 	position: relative;
 	top: 6px;
 }
 .login span {
+	margin: 0 -4px 0 -1px;
 	position: relative;
-	top: 3px;
 	color: white;
 }
 .header .banner {
@@ -440,9 +449,9 @@
 }
 .main {
 	float: left;
-	padding: 14px 0px 28px 24px;
+	padding: 14px 0px 6px 24px;
 	width: 502px;
-	height: 586px;
+	/*height: 586px;*/
 	overflow: hidden;
 	background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
@@ -591,8 +600,8 @@
 }
 .contacts {
 	margin-top: 24px;
+	padding-bottom: 49px;
 	width: 907px;
-	height: 99px;
 	background-color: #213a4d;
 }
 .contacts ul {
