@@ -1,0 +1,22 @@
+.wrapper {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.text-center {
+	margin-bottom: 58px;
+	font-size: 30px;
+}
+
+.title-name {
+	font-size: 24px;
+}
+
+.checkbox {
+	margin-left: 55px ;
+	width: 139px;
+}
+
+.btn-lg {
+	margin: 45px 0 0 235px;
+}
