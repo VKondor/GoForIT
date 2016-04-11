@@ -1,0 +1,17 @@
+.wrapper {
+	margin: 250px auto;
+	padding: 20px;
+	width: 430px;
+	background-color: #09EAED;
+	border-radius: 15px;
+	text-align: center;
+}
+.stopwatch {
+	font-size: 100px;
+}
+
+.stopwatch-ms {
+	width: 42px;
+	font-size: 25px;
+	float: right;
+}
