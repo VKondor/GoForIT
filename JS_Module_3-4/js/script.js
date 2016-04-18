@@ -93,9 +93,9 @@ var test = {
   },
   generateCheck: function() {
     var labelElem = document.querySelectorAll('label'); 
-    for (i = 0; i != labelElem.lastChild; i++) {
+    for (i = 0; i < labelElem.length; i++) {
       var newCheck = document.createElement('input');
-      newCheck.setAttribute('type', 'checkbox');        
+      newCheck.setAttribute('type', 'checkbox');   
       labelElem[i].insertBefore(newCheck, labelElem[i].firstChild);
     }
   }
