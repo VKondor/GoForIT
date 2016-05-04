@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css">
+	<link rel="stylesheet" type="text/css" href="css/cusel.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.1.1.min.js"></script>
+	<script src="https://code.jquery.com/color/jquery.color-2.1.2.js"
+		integrity="sha256-1Cn7TdfHiMcEbTuku97ZRSGt2b3SvZftEIn68UMgHC8="
+		crossorigin="anonymous"></script>
+	<script src="js/jcarousel.basic.js"></script>
+	<script src="js/cusel.js"></script>
+	<script src="js/jScrollPane.js"></script>
+	<script src="js/jquery.checkbox.js"></script>
+	<script src="js/script.js"></script>
+	</head>
+<body>
+
+	<nav class="nav">
+	    <ul class="nav__menu clearfix">
+	        <li class="nav__item"><a class="nav__link" href="#">Nav 1</a></li>
+	        <li class="nav__item"><a class="nav__link" href="#">Nav 2</a></li>
+	        <li class="nav__item dropdown">
+	            <a class="nav__link" href="#">Nav 3</a>
+	            <ul class="nav__menu sub-menu">
+	                <li class="nav__item"><a class="nav__link" href="#">Nav 3.1</a></li>
+	                <li class="nav__item"><a class="nav__link" href="#">Nav 3.2</a></li>
+	                <li class="nav__item"><a class="nav__link" href="#">Nav 3.3</a></li>
+	                <li class="nav__item dropdown">
+	                    <a class="nav__link" href="#">Nav 3.4</a>
+	                    <ul class="nav__menu sub-menu">
+	                        <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.1</a></li>
+	                        <li class="nav__item dropdown">
+	                            <a class="nav__link" href="#">Nav 3.4.2</a>
+	                            <ul class=" nav__menu sub-menu">
+	                                <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.2.1</a></li>
+	                                <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.2.2</a></li>
+	                                <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.2.3</a></li>
+	                                <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.2.4</a></li>
+	                                <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.2.5</a></li>
+	                            </ul>
+	                        </li>
+	                        <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.3</a></li>
+	                        <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.4</a></li>
+	                        <li class="nav__item"><a class="nav__link" href="#">Nav 3.4.5</a></li>
+	                    </ul>
+	                </li>
+	                <li class="nav__item"><a class="nav__link" href="#">Nav 3.5</a></li>
+	            </ul>
+	        </li>
+	        <li class="nav__item"><a class="nav__link" href="#">Nav 4</a></li>
+	        <li class="nav__item"><a class="nav__link" href="#">Nav 5</a></li>
+	    </ul>
+	</nav>
+
+	<div class="jcarousel-wrapper">
+			<div class="jcarousel">
+					<ul>
+							<li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+							<li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+							<li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+							<li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+							<li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+							<li><img src="img/img6.jpg" width="600" height="400" alt=""></li>
+					</ul>
+			</div>
+			<p class="photo-credits">
+				Photos by <a href="https://www.facebook.com/vlad.kondor.5" target="_blank">Vladyslav Kandrin</a>
+			</p>
+			<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+			<a href="#" class="jcarousel-control-next">&rsaquo;</a>
+			<p class="jcarousel-pagination">
+			</p>
+	</div>
+
+	<div class="jQueryCheck">
+  	<div>
+		  <label for="ch1">label 1</label>
+		  <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" />
+	  </div>
+  	<div>
+		  <label for="ch2">label 2</label>
+		  <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+	  </div>
+	  <div>
+		  <label for="ch3">label 3</label>
+		  <input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" />
+	  </div>
+	</div>
+
+	<div>
+		<input class="input" type="checkbox" name="" id="test-check1">
+		<label class="label" for="test-check1">label 1</label>
+	</div>
+	<div>
+		<input class="input" type="checkbox" name="" id="test-check2">
+		<label class="label" for="test-check2">label 2</label>
+	</div>
+	<div>
+		<input class="input" type="checkbox" name="" id="test-check3" disabled="disabled" checked="checked">
+		<label class="label" id="disabled" for="test-check3">label 2</label>
+	</div>
+
+	<select id="select" name="select">
+		<option value="1">Киев</option>
+		<option value="2">Днепропетровск</option>
+		<option value="3">Львов</option>
+		<option value="4">Винница</option>
+		<option value="5">Чернигов</option>
+	</select>
+
+</body>
+</html>
