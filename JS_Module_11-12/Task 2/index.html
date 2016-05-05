@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<script type="text/template" id="profile">
+		<div class="wrapper">
+			<h1 class="title"><%= data[0].title %></h1>
+			<p class="photo"><img src="<%= data[0].photo %>" width="185px"></p>
+			<p><%= data[0].content %></p> <hr>
+
+			<p><%= data[1].title %></p>
+			<% for (var i = 0; i < data[1].content.length; i++) { %>
+				<ul><li><%= data[1].content[i] %></li></ul>
+			<% }; %> <hr>
+
+			<% for (var i = 0; i < data[2].content.length; i++) { %>
+				<p><%= data[2].content[i] %></p>
+			<% }; %>
+		</div>
+	</script>
+</body>
+</html>
