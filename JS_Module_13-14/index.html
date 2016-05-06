@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<script type="text/template" id="template-test">
+		<div class="wrapper">
+			<% for (var i = 0; i < app.questions.length; i++) { %>
+				<h2><%= app.questions[i].title %></h2>
+				<ul>
+				<% for (var j = 0; j < app.questions[i].answers.length; j++) { %>
+					<li><input class="variant" type="radio" name="<%= app.questions[i].number %>" value="<%= app.questions[i].answers[j].correct %>"> <%= app.questions[i].answers[j].text %></li>
+				<% }; %>
+				</ul>
+			<% }; %>
+		</div>
+	</script>
+	<div class="modal_bg"></div>
+	<div class="modal_window">
+		<h1 class="modal_text"></h1>
+		<p class="text-center"><img class="modal_img" src="" alt="" /></p>
+		<button class="btn btn-danger" type="button" name="button">Закрыть</button>
+	</div>
+</body>
+</html>
