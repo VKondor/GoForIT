@@ -1,0 +1,41 @@
+.logo {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.form {
+	text-align: center;
+}
+.form__input {
+	margin-bottom: 20px;
+	padding: 9px 5px;
+	width: 650px;
+	border: 1px solid lightgrey;
+}
+.form__input:hover {
+	border: 1px solid black;
+}
+.form__submit:active,
+.form__input:focus {
+	border: 1px solid blue;
+}
+.form__submit {
+	padding: 10px 16px;
+	border: 1px solid transparent;
+}
+.form__submit:hover {
+	border: 1px solid grey;
+}
+
+.result {
+	text-align: center;
+}
+.result__menu {
+	list-style: none;
+}
+.result__link {
+	display: block;
+	text-decoration: none;
+	font-size: 24px;
+	margin-top: 5px;
+}
