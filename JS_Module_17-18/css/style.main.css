@@ -1,0 +1,10 @@
+body {
+  background-color: lightgrey;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 33%;
+  height: 800px;
+  background-color: black;
+}

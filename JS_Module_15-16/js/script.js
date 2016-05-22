@@ -32,7 +32,7 @@ $(function() {
     this.work = function() {
       alert("It's time for work!");
     }
-  }
+  };
 
   function Student() {
     this.placeOfStudy = 'Kyiv Polytechnic Institute';
