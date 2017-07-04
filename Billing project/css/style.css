@@ -1,0 +1,128 @@
+@font-face {
+	font-family: SFUIText;
+	src: url("../fonts/SFUIText-Regular.otf")
+}
+
+.wrapper {
+	margin: 0 auto;	
+	width: 1440px;
+	font-family: 'SFUIText', sans-serif;
+}
+
+.header {
+	height: 69px;
+	border-bottom: 2px solid #d4d8df;
+}
+
+.sidebar {
+	display: block;
+	float: left;
+	margin-left: -100%;
+	width: 300px;
+}
+
+.content {
+	margin-left: 300px;
+	padding: 22px 7px 140px 30px;
+	background-color: #f1f1f1;
+}
+
+.content > h1 {
+	margin-left: 10px;
+	padding-bottom: 50px;
+  font-size: 28px;
+  letter-spacing: -0.1px;
+  color: #6a6a6a;
+}
+
+.tabs {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.tabs > section {
+	display: none;
+	padding: 50px 100px 54px 50px;
+	background-color: #fff;
+	border-top: 1px solid #979797;
+	clear: both;
+}
+
+.tabs > section > p {
+	width: 412px;
+	font-size: 16px;
+	line-height: 1.44;
+}
+
+.tabs > input {
+	display: none;
+	position: absolute;
+}
+
+.tabs > label {
+	float: left;
+	margin: 0 0 -1px;
+	padding: 11px 0;
+	width: 120px;
+	color: #a7a9ac;
+	font-size: 16px;
+	text-align: center;
+}
+
+.tabs > label:last-of-type {
+	border-right: 1px solid #f0f0f0;
+	box-shadow: 2px 0 2px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tabs > label:hover {
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.tabs > input:checked + label {
+	color: #000;
+	background-color: #fff;
+}
+
+#tab1:checked ~ #content_tab1,
+#tab2:checked ~ #content_tab2,
+#tab3:checked ~ #content_tab3,
+#tab4:checked ~ #content_tab4,
+#tab5:checked ~ #content_tab5,
+#tab6:checked ~ #content_tab6,
+#tab7:checked ~ #content_tab7,
+#tab8:checked ~ #content_tab8 {
+	display: block;
+}
+
+.btn_next {
+	position: absolute;
+	top: 8px;
+	right: 0;
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/ic-arrow-right.png);
+	cursor: pointer;
+}
+
+.btn_prev {
+	position: absolute;
+	top: 8px;
+	right: 41px;
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/ic-arrow-left.png);
+	cursor: pointer;
+}
+
+.btn_menu {
+	position: absolute;
+	top: 8px;
+	right: 95px;
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/ic-view-all-list.png);
+	cursor: pointer;
+}
